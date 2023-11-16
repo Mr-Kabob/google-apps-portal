@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Apps Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .portal-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .portal-link {
+            margin: 10px;
+            padding: 10px;
+            background-color: #4285f4; /* Google Blue */
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            display: block;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Google Apps Portal</h1>
+    </header>
+
+    <section>
+        <h2>Links</h2>
+        <div class="portal-links">
+            <a href="https://docs.google.com/presentation/u/0/?tgif=d" class="portal-link" target="_blank">Google Presentation</a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="portal-link" target="_blank">Gmail Inbox</a>
+            <a href="https://docs.google.com/forms/u/0/?tgif=d" class="portal-link" target="_blank">Google Forms</a>
+            <a href="https://drive.google.com/drive/" class="portal-link" target="_blank">Google Drive</a>
+            <a href="https://docs.google.com/document/u/0/?tgif=d" class="portal-link" target="_blank">Google Document</a>
+            <a href="https://docs.google.com/spreadsheets/u/0/?tgif=d" class="portal-link" target="_blank">Google Sheets</a>
+            <a href="https://canvas.apps.chrome" class="portal-link" target="_blank">Canvas Apps</a>
+            <a href="https://earth.google.com/web/@0,0,0a,22251752.77375655d,35y,0h,0t,0r" class="portal-link" target="_blank">Google Earth</a>
+            <a href="https://sites.google.com/new?tgif=d" class="portal-link" target="_blank">Google Sites</a>
+            <a href="https://santatracker.google.com" class="portal-link" target="_blank">Santa Tracker</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Google Apps Portal</p>
+    </footer>
+
+</body>
+</html>
+
